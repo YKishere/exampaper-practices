@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>建模试卷</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+
+	<form onsubmit="return check(this)" action="">
+		<div id="header">
+			<h2>统一建模语言理论测试</h2>
+
+			<div class="header1">
+				<span>考试科目：统一建模语言</span>
+				<span>考试时间：100分钟</span>
+				<span>得分：</span>
+			</div>
+			<div class="header2">
+				<span>班级（必填）：
+					<input name="class" type="text" required>
+				</span>
+				<span>学号（必填）：
+					<input name="number" type="text" required>
+				</span>
+				<span>姓名（必填）：
+					<input name="name" type="text" required>
+				</span>
+			</div>
+		</div>
+
+		<div id="body">
+			<div class="timu">
+				<h3>一、填空题 （每题5分，共20分）</h3>
+				<ol>
+					<li>UML的中文全称是：</span>
+						<br />
+						<input type="text" name="tiankong1" value="">
+					</li>
+					<li>
+						<span>对象最突出的特征是：</span>
+						<br />
+						<input type="text" name="tiankong21">
+						<input type="text" name="tiankong22">
+						<input type="text" name="tiankong23">
+					</li>
+				</ol>
+				<form>
+			</div>
+			<div class="timu">
+				<h3>二、选择题 （每题10分，共20分）</h3>
+				<ol>
+					<li>
+						<span>UML与软件工程的关系是：</span>
+						<br/>
+						<input type="radio" name="xuanze1" value="A" />(A) UML就是软件工程
+						<br />
+						<input type="radio" name="xuanze1" value="B" />(B) UML参与到软件工程中软件开发过程的几个阶段
+						<br />
+						<input type="radio" name="xuanze1" value="C" />(C) UML与软件工程无关
+						<br />
+						<input type="radio" name="xuanze1" value="D" />(D) UML是软件工程的一部分
+						<br />
+					</li>
+					<li>
+						<span>Java语言支持：</span>
+						<br/>
+						<input type="radio" name="xuanze2" value="A" />(A) 单继承
+						<br />
+						<input type="radio" name="xuanze2" value="B" />(B) 多继承
+						<br />
+						<input type="radio" name="xuanze2" value="C" />(C) 单继承和多继承都支持
+						<br />
+						<input type="radio" name="xuanze2" value="D" />(D) 单继承和多继承都不支持
+						<br />
+					</li>
+				</ol>
+			</div>
+			<div class="timu">
+				<h3>三、多择题 （每题10分，共20分）</h3>
+				<ol>
+					<li>
+						<span>用例的粒度分为以下哪三种：</span>
+						<br/>
+						<input type="checkbox" name="duoze1" value="A" />(A) 概述级
+						<br />
+						<input type="checkbox" name="duoze1" value="B" />(B) 需求级
+						<br />
+						<input type="checkbox" name="duoze1" value="C" />(C) 用户目标级
+						<br />
+						<input type="checkbox" name="duoze1" value="D" />(D) 子功能级
+						<br />
+					</li>
+					<li>
+						<span>类图由以下哪三部分组成：</span>
+						<br/>
+						<input type="checkbox" name="duoze2" value="A" />(A) 名称(Name)
+						<br />
+						<input type="checkbox" name="duoze2" value="B" />(B) 属性(Attribute)
+						<br />
+						<input type="checkbox" name="duoze2" value="C" />(C) 操作(Operation)
+						<br />
+						<input type="checkbox" name="duoze2" value="D" />(D) 方法(Function)
+						<br />
+					</li>
+				</ol>
+			</div>
+			<div class="timu">
+				<h3>四、判断题 （每题10分，共20分）</h3>
+				<ol>
+					<li>
+						<span>用例图只是用于和客户交流和沟通的，用于确定需求。</span>
+						<input type="radio" name="panduan1" value="correct" />
+						<span>&#10003</span>
+						<input type="radio" name="panduan1" value="incorrect" />
+						<span>&#10005</span>
+					</li>
+					<li>
+						<span>在状态图中，终止状态在一个状态图中允许有任意多个。</span>
+						<input type="radio" name="panduan2" value="correct" />
+						<span>&#10003</span>
+						<input type="radio" name="panduan2" value="incorrect" />
+						<span>&#10005</span>
+					</li>
+				</ol>
+			</div>
+			<div class="timu">
+				<h3>五、简答题 （每题20分，共20分）</h3>
+				<ol>
+					<li>
+						<span>简述什么是模型以及模型的表现形式？</span>
+						<br />
+						<textarea name="answer" rows="10" cols="60"></textarea>
+					</li>
+
+				</ol>
+			</div>
+		</div>
+		<div id="footer">
+			<input type="submit" value="计算分数">
+		</div>
+		</form>
+
+		<script src="main.js"></script>
+
+</body>
+<html>

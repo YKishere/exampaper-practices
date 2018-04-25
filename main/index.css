@@ -1,0 +1,10 @@
+#header{margin:auto;position:relative;text-align: center;border: 1px solid darkgray; height: 180px; width: 900px;line-height: 40px;border-radius:8px;}
+.header1{padding-left: 50px;}
+.header1 span{padding-right: 50px;}
+
+#body{margin:auto;width: 900px;border: 1px solid darkgray;border-radius:8px;}
+.timu {padding-left: 20px;}
+
+#footer{text-align: center;}
+#footer input{background-color: #ccffcc; border-radius: 5px;}
+
